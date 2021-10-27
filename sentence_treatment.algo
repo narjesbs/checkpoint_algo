@@ -5,7 +5,7 @@ VAR
     c: CHAR;
 BEGIN
     REPEAT
-        Read(chaine);
+        Read(c);
     IF (c in ['a'..'z','A',..'Z'," "]) THEN
         lengthch:=lengthch+1;
         IF (c = " ") THEN
